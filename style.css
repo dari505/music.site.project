@@ -1,0 +1,66 @@
+header{
+    color: black;
+    background-color: rgb(162, 77, 222);
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid black;
+}
+h2{
+    text-align: center;
+}
+nav{
+    background-color: rgb(181, 181, 181);
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+}
+.quote-row {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.quote-card {
+  padding: 15px;
+  max-width: 250px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px 35px rgba(21, 21, 21, 0.1);
+}
+
+.quote-card img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+main{
+    padding: 30px;
+    margin: 20px;
+    font-family: georgia;
+}
+section{
+     padding: 30px;
+    margin: 20px;
+    font-family: georgia;
+}
+.v-row {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+.v-card {
+  padding: 40px;
+  max-width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(21, 21, 21, 0.1);
+}
+.v-card img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
